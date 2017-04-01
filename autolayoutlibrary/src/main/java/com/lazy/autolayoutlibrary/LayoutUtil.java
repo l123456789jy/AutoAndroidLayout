@@ -26,10 +26,29 @@ public class LayoutUtil {
   private static float designWidth = 0;
   //切图的高
   private static float designHeight = 0;
+  static LayoutUtil instance;
 
   public LayoutUtil() {
     ratio = designWidth / designHeight;
     mRatio = ScreenWidth / ScreenHeight;
+  }
+
+
+  /**
+   * 单利获取LayoutUtil
+   * @return
+   */
+  public static LayoutUtil getInstance() {
+
+    if (instance == null) {
+      synchronized (LayoutUtil.class) {
+        if (instance == null) {
+          instance = new LayoutUtil();
+        }
+      }
+    }
+
+    return instance;
   }
 
 

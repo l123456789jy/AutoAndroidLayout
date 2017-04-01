@@ -22,7 +22,7 @@ LayoutUtil.initConfig(手机屏幕宽, 手机屏幕高, 切图高, 切图宽);
 
 ```java
 
- LayoutUtil mlayoutUtil = new LayoutUtil();
+ LayoutUtil mlayoutUtil = LayoutUtil.getInstance();
     mlayoutUtil.xxxxxxx
 
 ```

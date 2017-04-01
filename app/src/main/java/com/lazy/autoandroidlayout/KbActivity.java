@@ -58,7 +58,7 @@ public class KbActivity extends AppCompatActivity {
   }
 
   private void initLocation() {
-    LayoutUtil mlayoutUtil = new LayoutUtil();
+    LayoutUtil mlayoutUtil = LayoutUtil.getInstance();
 
     mlayoutUtil.drawViewlLayout(mRlChanger, 993f, 284f, 0f, 0f, 60f);
 

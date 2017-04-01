@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
   }
 
   private void initLocation() {
-    LayoutUtil mlayoutUtil = new LayoutUtil();
+    LayoutUtil mlayoutUtil = LayoutUtil.getInstance();
     mlayoutUtil.drawViewLinearLayout(llLonginBg, 1000f, 396f, 0f, 60f);
     mlayoutUtil.drawViewLinearLayout(llAccount, 1000f, 190f, 40f, 0f);
     mlayoutUtil.drawViewLinearLayout(llPas, 1000f, 190f, 40f, 0f);

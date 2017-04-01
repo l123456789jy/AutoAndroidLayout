@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
   }
 
   private void initLocation() {
-    LayoutUtil mlayoutUtil = new LayoutUtil();
+    LayoutUtil mlayoutUtil = LayoutUtil.getInstance();
     mlayoutUtil.drawViewlLayout(bt1, 331f, 91f, 0f, 0f, 0f);
     mlayoutUtil.drawViewlLayout(bt2, 331f, 91f, 0f, 0f, 50f);
   }
