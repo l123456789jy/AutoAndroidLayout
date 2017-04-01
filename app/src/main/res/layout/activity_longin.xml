@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custome="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#efefef"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:id="@+id/ll_longin_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/login_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:id="@+id/ll_account"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/et_passport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:hint="输入您的账号"
+        android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/ll_pas"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:hint="输入您的密码"
+        android:password="true"
+        android:singleLine="true"/>
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <Button
+    android:id="@+id/btn_login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/login_bg"
+    android:text="登录"/>
+
+  <Button
+    android:id="@+id/btn_rememberpwd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:text="忘记密码"/>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="110dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="1dp"
+      android:layout_weight="1"
+      android:layout_gravity="center_vertical"
+      android:background="#efefef"></LinearLayout>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="其他登录方式"/>
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="1dp"
+      android:layout_weight="1"
+      android:layout_gravity="center_vertical"
+      android:background="#efefef"></LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/ll_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:id="@+id/ll_wei_bo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <Button
+        android:id="@+id/btn_web_chat_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/weibo_click_default"/>
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信登录"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/ll_qq"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:visibility="visible">
+
+      <Button
+        android:id="@+id/btn_qq_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/qq_click_default"/>
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="QQ登录"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/ll_xin_lang"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:visibility="visible">
+
+      <Button
+        android:id="@+id/btn_wei_bo_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/weibo_click_default"/>
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="微博登录"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#efefef">
+
+  <RelativeLayout
+    android:id="@+id/rl_changer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+    <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_changer"/>
+
+    <TextView
+      android:id="@+id/tv_change"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="零钱(元)"
+      android:textColor="@android:color/white"
+      android:textSize="14sp"/>
+
+    <ImageView
+      android:id="@+id/iv_changer_question"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:background="@drawable/bg_changer_question"/>
+
+    <TextView
+      android:id="@+id/tv_total_change"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:text="0"
+      android:textColor="@android:color/white"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/rl_kb"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rl_earn_change_rl"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_kb"/>
+
+    <TextView
+      android:id="@+id/tv_kb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="K币(个)"
+      android:textColor="@android:color/white"
+      android:textSize="14sp"/>
+
+    <TextView
+      android:id="@+id/tv_total_kb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:text="0"
+      android:textColor="@android:color/white"/>
+  </RelativeLayout>
+
+  <LinearLayout
+    android:id="@+id/rl_lin_kb_change"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rl_kb"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg_submit"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+      android:id="@+id/rl_earn_kb"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:background="@drawable/bg_left">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="K币充值"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/rl_earn_kb_jilu"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:background="@drawable/bg_right">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="K币记录"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+    </RelativeLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/rl_lin_earn_change"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rl_changer"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg_submit"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+      android:id="@+id/rl_earn_change"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:background="@drawable/bg_left">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="零钱赚取"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/rl_earn_change_detail"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:background="@drawable/bg_right">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="零钱明细"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+    </RelativeLayout>
+
+  </LinearLayout>
+</RelativeLayout>
+
