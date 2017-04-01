@@ -24,24 +24,84 @@ LayoutUtil.initConfig(手机屏幕宽, 手机屏幕高, 切图高, 切图宽);
 
 
 
+
 - 华为手机效果：
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/hua_wei_a.jpg)
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/hua_wei_b.jpg)
+
+
+
+
+
+
+
+![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/hua_wei_a.jpg)![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/hua_wei_b.jpg)
+
+
+
+
+
 
 
 
 - 魅族手机效果：
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/mei_zu_a.jpg)
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/mei_zu_b.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/mei_zu_a.jpg)![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/mei_zu_b.jpg)
+
+
+
+
+
 
 
 
 - 三星手机效果：
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/san_xing_a.jpg)
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/san_xing_b.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/san_xing_a.jpg) ![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/san_xing_b.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 - 小米手机效果：
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/xiao_mi_a.jpg)
-![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/xiao_mi_b.jpg)
+
+
+
+
+
+
+![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/xiao_mi_a.jpg)![](https://github.com/l123456789jy/AutoAndroidLayout/blob/master/image/xiao_mi_b.jpg)
