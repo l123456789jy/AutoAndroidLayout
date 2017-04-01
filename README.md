@@ -5,6 +5,14 @@
 - 使用方法，先在`application` 初始化
 
 
+- 依赖方式
+
+```java
+compile project(path: ':autolayoutlibrary')
+
+```
+
+
 ```java
 LayoutUtil.initConfig(手机屏幕宽, 手机屏幕高, 切图高, 切图宽);
 
